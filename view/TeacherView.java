@@ -9,7 +9,6 @@ public class TeacherView implements UserView<Teacher> {
 
     @Override
     public void sendOnConsole(List<Teacher> teachers) {
-        Collections.sort(teachers);
         System.out.println(teachers);
     }
 
